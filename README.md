@@ -1,7 +1,7 @@
 # The Ultimate Periodic Table
 
 **The Ultimate Periodic Table** is a web-based application that provides two interactive features to help you learn and engage with the periodic table of elements. This project utilizes HTML, CSS, and JavaScript to offer a periodic table quiz game and a comprehensive element information section.
-https://github.com/Shreshtha-1234/PeriodicTableGame/edit/main/README.md#screenshots
+
 ## Features
 
 ### 1. Periodic Table Quiz Game
