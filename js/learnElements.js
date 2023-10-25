@@ -3,7 +3,7 @@ let allElements  = [];
 let currentIndex = -1;
 let currentElement = null;
 
-// Function to display element properties in the table
+// Function to display element properties 
 function displayProperties(listItem , element) {
     if(listItem !== currentElement)
     {
