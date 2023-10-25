@@ -41,9 +41,9 @@ https://github.com/Shreshtha-1234/PeriodicTableGame/edit/main/README.md#screensh
 
 ![Start Screenshot](https://drive.google.com/uc?id=13OT9gySG0kVbFS5RMrJnoiglFbdNCmzg)
 
-![Game Screenshot](https://drive.google.com/file/d/1qKPjHJp4s4AGIrdp_TNBo47ejKSRZchG/view?usp=drive_link)
+![Game Screenshot](https://drive.google.com/uc?id=1qKPjHJp4s4AGIrdp_TNBo47ejKSRZchG)
 
-![Element Information Screenshot](https://drive.google.com/file/d/1Qe6S4EbBnBu4R1CJtU4LhOQC8TZs-O10/view?usp=drive_link)
+![Element Information Screenshot](https://drive.google.com/uc?id=1Qe6S4EbBnBu4R1CJtU4LhOQC8TZs-O10)
 
 
 ## Technologies Used
