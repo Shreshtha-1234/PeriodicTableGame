@@ -1,4 +1,4 @@
-import { elements } from "./data.js";
+import { elements } from "../assets/data/data.js";
 const myroot = document.getElementById("root");
 let maxScore = localStorage.getItem("maxScore") || 0;
 let currScore = 0;

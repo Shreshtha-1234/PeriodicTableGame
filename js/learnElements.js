@@ -1,4 +1,4 @@
-import { elements } from "./data.js";
+import { elements } from "../assets/data/data.js";
 let allElements  = [];
 let currentIndex = -1;
 let currentElement = null;
