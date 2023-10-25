@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodic Table</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body >
+    <div class="flex h-screen bg-[#2b3155] text-white">
+    <div class="w-1/2 p-8">
+        <ul id="element-list" class="p-5 h-[100%] flex flex-col flex-wrap">
+           
+        </ul>
+    </div>
+    <div class="w-1/2 text-white">
+        <!-- Right side for displaying properties -->
+        <div class="flex flex-col items-center gap-[50px] transition-all duration-300" id="demo-text">
+            <img class="mt-[120px]" src="./demoImage.png" height="300" width="300">
+            <p class="text-3xl font-bold font-roboto text-[#FDB232] w-[70%] text-center">Click on any element to know more about it !</p>
+        </div>
+        <div id="elementName" class="text-5xl text-center text-[#FDB232] mt-[40px] font-bold  transition-all duration-300"></div>
+        <div id="element-properties" class="border py-8 px-12 my-6 mx-16 rounded-lg hidden bg-[#2C333F] ">
+        <table >
+            <thead>
+                <tr>
+                    <td class="font-bold text-[18px] pb-2">Property</td>
+                    <td class="font-bold text-[18px] pb-2">Value</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Symbol</td>
+                    <td id="elementSymbol"></td>
+                </tr>
+                <tr>
+                    <td>Atomic Mass</td>
+                    <td id="elementAtomicMass"></td>
+                </tr>
+                <tr>
+                    <td>Category</td>
+                    <td id="elementCategory"></td>
+                </tr>
+                <tr>
+                    <td>Block</td>
+                    <td id="elementBlock"></td>
+                </tr> 
+                <tr>
+                    <td>Group</td>
+                    <td id="elementGroup"></td>
+                </tr>
+                <tr>
+                    <td>Period</td>
+                    <td id="elementPeriod"></td>
+                </tr>                
+                <tr>
+                    <td>Atomic Number</td>
+                    <td id="elementAtomicNumber"></td>
+                </tr>
+                <tr>
+                    <td>Discovered By </td>
+                    <td id="elementDiscovery"></td>
+                </tr>  
+                <tr>
+                    <td>Phase</td>
+                    <td id="elementPhase"></td>
+                </tr> 
+                <tr>
+                    <td>Electronic Configuration &nbsp; &nbsp;</td>
+                    <td id="elementElectron"></td>
+                </tr> 
+                
+            </tbody>
+        </table>
+        <div id="elementImg" class="mt-4 flex justify-center items-center">
+
+        </div>
+    </div>
+    </div>
+    
+</div>
+<div class="fixed bottom-0 px-4 py-1 bg-white w-full font-bold text-center">Use Arrow Keys for moving within the elements. Use Arrow ↑ to move up , Arrow ← to move left , Arrow → to move right and Arrow ↓ to move down.</div>
+
+<a href="./index.html" class="hover:scale-95 transition-all duration-200 fixed text-white top-4 right-[50px] px-2 py-1 border rounded"> ← Go back </a>
+    <script type="module" src="infotech.js"></script> <!-- Your custom JavaScript file -->
+
+</body>
+</html>
